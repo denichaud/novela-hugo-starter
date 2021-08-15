@@ -21,6 +21,16 @@ sections:
   match: "**/*"
   templates:
   - home
+- type: directory
+  path: content/tourism
+  label: Tourism
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/QOL
+  label: Community | Quality of Life
+  create: all
+  match: "**/*"
 - type: heading
   label: Content
 - type: directory
